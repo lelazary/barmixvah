@@ -9,14 +9,14 @@ board.on('ready', function () {
 	
   pumpSwitch = new five.Led(0); 
 	onPumps = 0;
-  pump0 = new five.Led(1); //12
-  pump1 = new five.Led(3); //10
-  pump2 = new five.Led(5); //8
-  pump3 = new five.Led(7); //5
-  pump4 = new five.Led(9); //6
-  pump5 = new five.Led(11);
-  pump6 = new five.Led(13);
-  pump7 = new five.Led(15);
+  pump0 = new five.Led(2); //1
+  pump1 = new five.Led(3); //4
+  pump2 = new five.Led(5); //6
+  pump3 = new five.Led(8); //7
+  pump4 = new five.Led(10); //9
+  pump5 = new five.Led(12); //11
+  pump6 = new five.Led(13); //14
+  pump7 = new five.Led(16); //17
 
   board.repl.inject({
     p0: pump0,
