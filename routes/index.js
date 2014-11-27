@@ -4,7 +4,7 @@ exports.index = function (Drink, Pump) {
     Drink.find({}, function (err, drinks) {
       Pump.find({}, function (err, pumps) {
         res.render('index', { 
-          title: "Bar Mixvah: The Automatic Bartender Robot" ,
+          title: "IZac: The Robot drink mixer" ,
           drinks: drinks,
           pumps: pumps
         });

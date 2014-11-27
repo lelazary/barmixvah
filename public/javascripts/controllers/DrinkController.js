@@ -16,9 +16,9 @@ function DrinkController($scope, $http) {
   };
 
   $scope.sizes = [
-    { size: '40', time: '18000' },
-    { size: '200', time: '90000' },
-    { size: '400', time: '180000' }
+    { size: '40', time: '40000' },
+    { size: '80', time: '80000' },
+    { size: '120', time: '120000' }
   ];
 
   $scope.selectedDrink;
@@ -32,7 +32,7 @@ function DrinkController($scope, $http) {
     'Orange Juice', 'Apple Juice', 'Cranberry Juice', 'Pineapple Juice', 'Mango Juice', 'Grapefruit Juice', 'Lime Juice',
     'Coke', 'Sprite', 'Ginger Ale', 'Root Beer', 'Dr. Pepper',
     'Blue Liqueur', 'Sweet & Sour', 'Triple Sec', 'Kaluha', 'Peach Schnapps', 'Midori Melon',
-    'Champagne'
+    'Champagne', 'Vermouth', 'Grenadine', 'Amaretto'
   ];
 
   $scope.setDrinks = function (drinks) {
